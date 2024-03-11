@@ -1,0 +1,50 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5vw 8vw;
+}
+
+.logo h1 {
+  font-size: 2vw;
+  color: #484848;
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.items {
+  display: flex;
+  gap: 4vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.items a {
+  color: #484848;
+  font-size: 2.5vw;
+  font-size: large;
+  text-shadow: 3px 4px 5px rgba(0, 0, 0, 0.25);
+}
+
+.cartBtn{
+  position: relative;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 0; 
+  cursor: pointer;
+}
+
+.item-no{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #FF0606;
+  color: #ffff;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  font-size: 10px;
+  
+}

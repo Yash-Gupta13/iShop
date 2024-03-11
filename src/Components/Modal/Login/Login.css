@@ -1,0 +1,156 @@
+.wrapper {
+  width: 100vw;
+  padding: 0.5vw 1.5vw;
+}
+
+.main-section {
+  display: flex;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  max-width : 1280px;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  width: 50%;
+  aspect-ratio: 3/4;
+  height: 700px;
+  
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.credentials {
+  margin-top: 50px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.credentials >h1 {
+  color: #484848;
+}
+
+.auth-btn {
+  margin-top: 50px;
+}
+
+.auth-btn >h3 {
+  color: #000000;
+  font-weight: 400;
+}
+
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 20px;
+}
+
+.social-btn >button {
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 5px 18px;
+  border: 1px solid #5b86e5;
+  color: #000000;
+  background-color: #ffff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gbtn {
+  margin-right: 8px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.mid-section {
+  margin-top: 50px;
+}
+
+.mid-section >h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #838383;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  border: 0;
+  margin: 10px;
+  margin-left: 0;
+  border-bottom: 1px solid #9d9d9d;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.btn button {
+  padding: 15px;
+  background-color: #ffff;
+  color: #000000;
+  margin-top: 9px;
+  border-radius: 5px;
+}
+
+#signIn {
+  background-color: #000000;
+  color: #ffff;
+  border: 1px solid #000000;
+  cursor: pointer;
+}
+
+#register {
+  border: 1px solid #5b86e5;
+  color: #5b86e5;
+  cursor: pointer;
+}
+
+.forget {
+  color: #5b86e5;
+  margin-top: 9px;
+  text-align: end;
+}
+
+.terms {
+  color: #282828;
+  margin-top: 50px;
+  font-weight: 200;
+  text-align: right;
+  position:absolute;
+  right: 15px;
+  bottom: 12px;
+
+}
+
+@media only screen and (max-width:720px) {
+  .image{
+    display: none;
+  }
+  .credentials{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+  }
+}
