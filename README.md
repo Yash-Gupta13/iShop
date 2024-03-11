@@ -28,6 +28,6 @@ To get started with iShop locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
-4. Run the application using `npm start`.
+4. Run the application using `npm run dev`.
 5. Access the application in your web browser at `http://localhost:3000`.
 
